@@ -1,7 +1,109 @@
 * {
-    outline: 0;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root {
+    --color-green: #00a878;
+    --color-grey: #c1c0c0;  ;
+    --color-button: #fdffff;
+    --color-black: #000;
+}
+
+body {
+    width: 1280px;
+}
+
+.header .header-top img {
+    width: 120px;
+}
+
+.header .header-top {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.header .header-top .search {
+    display: flex;
+    align-items: center;
+}
+
+.header .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+.header .menu .menu-list ul {
+    display: flex;
+}
+
+.header .menu .menu-list ul li a{
+    margin: 0 15px;
+}
+
+
+.header .menu .menu-list ul {
+    list-style: none;
+}
+
+/* <-----------------------Dark mode code--------------> */
+
+.switch-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.switch-button .switch-button__checkbox {
+    display: none;
+}
+.switch-button .switch-button__label {
+    background-color: var(--color-grey);
+    width: 4rem;
+    height: 2rem;
+    border-radius: 3rem;
+    display: inline-block;
+    position: relative;
+}
+.switch-button .switch-button__label:before {
+    transition: .2s;
+    display: block;
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--color-button);
+    content: '';
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 0px 1px var(--color-black);
+}
+.switch-button .switch-button__checkbox:checked + .switch-button__label {
+    background-color: var(--color-green);
+}
+.switch-button .switch-button__checkbox:checked + .switch-button__label:before {
+    transform: translateX(2rem);
+}
+
+main {
+    margin: 20px;
+}
+
+.Container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(9, auto);
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+
+.Container .Product {
+
+}
+
+.Container .Product .Product-img {
+    width: 180px;
 }
 

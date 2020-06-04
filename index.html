@@ -1,18 +1,23 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>ComicMania Online</title>
 </head>
 <body>
-    <header>
-        <div class="search">
-            <img src="#" alt="Logo">
-            <input type="text">
+    <header class="header">
+        <div class="header-top">
+            <img src="./assets/Logo final 3.png" alt="Logo">
+
+            <div class="search">
+                <input type="text">
+            </div>
+
         </div>
         <div class="menu">
-            <nav>
+            <nav class="menu-list">
                <ul>
                    <li><a href="#">TOP SELLING</a></li>
                    <li> <a href="#">BEST DEALS</a></li>
@@ -20,14 +25,19 @@
                    <li> <a href="#">ALL PRODUCTS</a></li>
                </ul>
             </nav>
-            <button> dark mode</button>
+            <div class="switch-button">
+                <!-- Checkbox -->
+                <input type="checkbox" name="switch-button" id="switch-label" class="switch-button__checkbox">
+                <!-- Button -->
+                <label for="switch-label" class="switch-button__label"></label>
+            </div>
         </div>
     </header>
 
     <main>
         <section class="Container">
             <div class="Product">
-                <img class="Product-img" src="#" alt="">
+                <img class="Product-img" src="./assets/7.jpg" alt="">
                 <div class="product-list-info">
                     <div class="product-price">
                         <span>US $41.95</span>
@@ -39,7 +49,7 @@
                 </div>
             </div>
             <div class="Product">
-                <img class="Product-img" src="#" alt="">
+                <img class="Product-img" src="./assets/8.jpeg" alt="">
                 <div class="product-list-info">
                     <div class="product-price">
                         <span>US $41.95</span>
@@ -52,7 +62,7 @@
             </div>
 
             <div class="Product">
-                <img class="Product-img" src="#" alt="">
+                <img class="Product-img" src="./assets/9.jpeg" alt="">
                 <div class="product-list-info">
                     <div class="product-price">
                         <span>US $41.95</span>
@@ -63,6 +73,80 @@
                     </div>
                 </div>
             </div>
+
+            <div class="Product">
+                <img class="Product-img" src="./assets/1.jpeg" alt="">
+                <div class="product-list-info">
+                    <div class="product-price">
+                        <span>US $41.95</span>
+                        <small>US $60.95</small>
+                    </div>
+                    <div class="Product-btn-buy">
+                        <a href="#" type="button">BUY</a>
+                    </div>
+                </div>
+            </div>
+            <div class="Product">
+                <img class="Product-img" src="./assets/2.jpg" alt="">
+                <div class="product-list-info">
+                    <div class="product-price">
+                        <span>US $41.95</span>
+                        <small>US $60.95</small>
+                    </div>
+                    <div class="Product-btn-buy">
+                        <a href="#" type="button">BUY</a>
+                    </div>
+                </div>
+            </div>
+            <div class="Product">
+                <img class="Product-img" src="./assets/3.jpg" alt="">
+                <div class="product-list-info">
+                    <div class="product-price">
+                        <span>US $41.95</span>
+                        <small>US $60.95</small>
+                    </div>
+                    <div class="Product-btn-buy">
+                        <a href="#" type="button">BUY</a>
+                    </div>
+                </div>
+            </div>
+            <div class="Product">
+                <img class="Product-img" src="./assets/4.jpg" alt="">
+                <div class="product-list-info">
+                    <div class="product-price">
+                        <span>US $41.95</span>
+                        <small>US $60.95</small>
+                    </div>
+                    <div class="Product-btn-buy">
+                        <a href="#" type="button">BUY</a>
+                    </div>
+                </div>
+            </div>
+            <div class="Product">
+                <img class="Product-img" src="./assets/5.jpg" alt="">
+                <div class="product-list-info">
+                    <div class="product-price">
+                        <span>US $41.95</span>
+                        <small>US $60.95</small>
+                    </div>
+                    <div class="Product-btn-buy">
+                        <a href="#" type="button">BUY</a>
+                    </div>
+                </div>
+            </div>
+            <div class="Product">
+                <img class="Product-img" src="./assets/6.jpg" alt="">
+                <div class="product-list-info">
+                    <div class="product-price">
+                        <span>US $41.95</span>
+                        <small>US $60.95</small>
+                    </div>
+                    <div class="Product-btn-buy">
+                        <a href="#" type="button">BUY</a>
+                    </div>
+                </div>
+            </div>
+
         </section>
     </main>
 
