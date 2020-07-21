@@ -37,12 +37,12 @@ body {
   padding: 0 15px;
   border: 1px solid #c1c0c0;
   border-radius: 10px;
-  background: #f8f8f8;
+  background: #ffffff;
 }
 .header__top__search--input {
   border: none;
   width: 380px;
-  background: #f8f8f8;
+  background: #ffffff;
 }
 .header__top__search--img {
   width: 25px;
@@ -131,7 +131,7 @@ body {
 /* <--------------------------- MAIN -------------------------------> */
 main {
   padding: 20px;
-  background: #f8f8f8;
+  background: #ffffff;
 }
 
 .Container {
@@ -140,6 +140,7 @@ main {
   grid-template-rows: repeat(9, auto);
   justify-content: space-evenly;
   align-content: center;
+  background-color: #ffffff;
 }
 .Container__Product {
   display: flex;
