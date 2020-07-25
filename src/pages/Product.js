@@ -1,4 +1,7 @@
+import getHash from '../utils/getHash'
+
 const Product = () => {
+    const id = getHash()
     const view = `
     <section class="productContainer">
     <section class="productContainer__top">

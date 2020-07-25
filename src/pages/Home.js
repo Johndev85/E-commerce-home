@@ -2,7 +2,7 @@ const Home = () => {
     const view = `
     <section class="main" id="content">
         <section class="Container">
-            <div class="Container__Product">
+            <div class="Container__Product>
                 <img class="Container__Product--img" src="./src/styles/assets/7.jpg" alt="">
                 <div class="Container__Product__listInfo">
                     <div class="Container__Product__listInfo--price">
