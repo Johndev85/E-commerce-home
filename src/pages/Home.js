@@ -1,8 +1,10 @@
+
 const Home = () => {
     const view = `
     <section class="main" id="content">
         <section class="Container">
-            <div class="Container__Product>
+
+            <div class="Container__Product">
                 <img class="Container__Product--img" src="./src/styles/assets/7.jpg" alt="">
                 <div class="Container__Product__listInfo">
                     <div class="Container__Product__listInfo--price">
@@ -93,7 +95,9 @@ const Home = () => {
                 </div>
             </div>
 
-            <div class="Container__Product">return view>
+            <div class="Container__Product">
+                <img class="Container__Product--img" src="./src/styles/assets/5.jpg" alt="">
+                <div class="Container__Product__listInfo">
                     <div class="Container__Product__listInfo--price">
                         <span>US $41.95</span>
                         <small>US $60.95</small>
