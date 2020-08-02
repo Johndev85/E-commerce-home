@@ -1,6 +1,7 @@
 
 const Home = () => {
     const view = `
+
     <section class="main" id="content">
         <section class="Container">
 
