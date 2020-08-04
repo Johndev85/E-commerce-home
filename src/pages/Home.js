@@ -6,7 +6,9 @@ const Home = () => {
         <section class="Container">
 
             <div class="Container__Product">
-                <img class="Container__Product--img" src="./src/styles/assets/7.jpg" alt="">
+                <a href="#">
+                    <img class="Container__Product--img" src="./src/styles/assets/7.jpg" alt="">
+                </a>
                 <div class="Container__Product__listInfo">
                     <div class="Container__Product__listInfo--price">
                         <span>US $41.95</span>

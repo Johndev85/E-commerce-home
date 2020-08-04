@@ -17,17 +17,19 @@ const routes = {
 
 const router = async () => {
     const header =  null || document.getElementById('header')
+    // const banner =  null || document.getElementById('banner')
     const content = null || document.getElementById('content')
-    // const footer =  null || document.getElementById('footer')
+    const footer =  null || document.getElementById('footer')
 
 
     header.innerHTML = await Header()
+    // banner.innerHTML = await Banner()
     let hash = getHash()
     let route = await resolveRoutes(hash)
     let render = routes [route] ? routes [route] : Error404
 
     content.innerHTML = await render
-    // footer.innerHTML = await Footer()
+    footer.innerHTML = await Footer()
 }
 
 export default router
